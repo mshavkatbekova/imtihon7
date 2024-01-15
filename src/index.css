@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .max-container {
+    @apply mx-auto max-w-6xl px-8;
+  }
+
+  .form-label {
+    @apply block;
+  }
+  .form-label span {
+    @apply block text-black mt-3 mb-1 font-semibold px-1 py-2;
+  }
+
+  .form-label input {
+    @apply bg-white border-2 border-solid hover:border-black;
+  }
+}
